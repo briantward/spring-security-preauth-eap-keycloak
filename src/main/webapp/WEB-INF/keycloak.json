@@ -1,10 +1,10 @@
 {
   "realm": "spring-preauth",
-  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAijdRFOrpT+bBhH1ljFw1Yp506o49U0Vn9Msff3f6laBRUNlX0Ra6vdLsfZgR6ADxZ+aV3FUR8LDMQcVG0rltw4VwA9/g1ot4s0b0CgiUUhDKOqmCzHb3FVyRMsIs+WCLsu8/uTnY3pDb0ZrEKEAZwxDok7zhjrWFWatkF2TOXpUnqlRDWMHcZKbaTh+ltWI689IfWwjF+hGu8KDeijF3txdhkgFgF84hrwpQu9oYv/yJc9Kn0FKiDclP57rjoe+VDuOTsrO8EgSt+QEi4VBx+k2NIBBtVr9mscDPEdD9uK5BN8x0BiCXoRg9x86ZjzGP28PgyC1YjCnicNtES2sNawIDAQAB",
-  "auth-server-url": "http://localhost:8080/auth",
-  "ssl-required": "external",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmpozWfhxxH/n86TDwZaQzmoIAgSnKjkTgmF/0aX6wsJKw+3/Vs4QKgJWY1bfD5jGKBXx7mrhnsQ7U51fm93m3iHxBkXKkg+CJDm78G8TMCAquj+h4Q3HqYxgZbEGEARyljU++QV/T9hbJHE+jRQQc0IYyF7hSvl9k8tfKGmCXRoiHLXJRBdAK3HMpsGFmvbVtUbxhtMRq5enZlkjyQPr7G7crwd6VWhq7tRbSDIUi2fG2lzQqFNj+cjO9/e1GwcGQY2OddLePY7KnSZUA6Y156oasdmIfidQwrGcCN/lMffNWnvTr9ngPv1y51OD4ar7VQB9ZoEqEaUVjiZzYR21vwIDAQAB",
+  "auth-server-url": "https://auth.nasba-dev.org/auth",
+  "ssl-required": "all",
   "resource": "preauth-eap",
   "credentials": {
-    "secret": "0a8f39b3-949c-49e8-8f70-bbc78b874067"
+    "secret": "aecedc66-1c1e-446b-b88f-16b169d30894"
   }
 }

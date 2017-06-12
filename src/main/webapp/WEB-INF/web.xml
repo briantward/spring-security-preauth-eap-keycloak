@@ -28,6 +28,9 @@
 			<web-resource-name>Secured Areas</web-resource-name>
 			<url-pattern>/*</url-pattern>
 		</web-resource-collection>
+		<user-data-constraint>
+			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
 		<auth-constraint>
 			<role-name>ROLE_USER</role-name>
 			<role-name>ROLE_ADMIN</role-name>
